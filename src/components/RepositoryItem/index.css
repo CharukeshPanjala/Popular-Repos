@@ -1,0 +1,39 @@
+.each-product {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f8f8ff;
+  margin: 30px;
+}
+
+.product-image {
+  width: 100px;
+}
+
+.product-heading {
+  color: #e73959;
+  font-size: 20px;
+}
+
+.stars-container {
+  display: flex;
+  align-items: center;
+}
+.star {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.stars-count {
+  display: flex;
+  font-size: 10px;
+  color: #1e293b;
+  font-weight: 500;
+}
+
+.details-container {
+  align-self: flex-start;
+}

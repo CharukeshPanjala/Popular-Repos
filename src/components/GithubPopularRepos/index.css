@@ -1,0 +1,30 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: roboto;
+}
+
+.heading {
+  font-family: lobster;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.language-filter-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 50%;
+}
+
+.products-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}

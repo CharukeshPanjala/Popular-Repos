@@ -1,0 +1,17 @@
+.button {
+  background-color: transparent;
+  border: 0px;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 30px;
+  padding: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.selected-button {
+  color: #0284c7;
+  border: 1px solid #0284c7;
+}
